@@ -1,0 +1,17 @@
+{
+    "name": "browserfs-chrome-ext",
+    "version": "0.1",
+    "description": "BrowserFS chrome extension",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 2
+}
