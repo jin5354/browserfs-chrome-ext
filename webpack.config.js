@@ -6,8 +6,7 @@ module.exports = {
   entry: path.join(__dirname, './src/index.tsx'),
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, './build'),
-    clean: true,
+    path: path.join(__dirname, './build')
   },
   module: {
     rules: [{
