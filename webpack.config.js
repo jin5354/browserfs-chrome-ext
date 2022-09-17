@@ -10,7 +10,7 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.(css|scss)$/,
+      test: /\.(css|scss|sass)$/,
       use: [
         {
           loader: 'style-loader',
@@ -20,9 +20,6 @@ module.exports = {
         },
         {
           loader: 'sass-loader',
-          options: {
-            sourceMap: true,
-          },
         },
       ],
     },
