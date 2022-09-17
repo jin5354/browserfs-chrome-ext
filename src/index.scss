@@ -40,6 +40,10 @@
     align-self: stretch;
     overflow: auto;
     font-size: 12px;
+
+    pre {
+      white-space: break-spaces;
+    }
   }
 
 }
